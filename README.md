@@ -46,7 +46,7 @@ Build 'virtualbox-iso' errored: ISO download failed.
 * To install app specific node packages, run `sudo npm install`. You may see several errors; they can be ignored for now.
 * Now you can run tests with the command `grunt -v`. The tests will run, then quit with an error.
 
-### Troubleshooting
+###### Troubleshooting
 
 If you encounter errors with Ubuntu version numbers not being available or checksum errors on Ubuntu,it means that this repository has not yet been updated for the latest Ubuntu version. Feel free to mention this in the [forum](https://discussions.udacity.com/c/nd012-p1-intro-to-devops/nd012-the-devops-environment). Meanwhile, you can fix this error for yourself by editing the contents of the `application-server.json` and `control-server.json` template files inside the `packer-templates` folder.
 
